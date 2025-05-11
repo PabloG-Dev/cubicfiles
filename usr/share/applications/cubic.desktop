@@ -2,7 +2,7 @@
 Name=Cubic
 Comment=Custom Ubuntu ISO Creator
 Path=/usr/share/cubic
-Exec=/usr/bin/cubic
+Exec=python3 /usr/share/cubic/cubic_wizard.py
 Terminal=false
 Type=Application
 Icon=cubic
